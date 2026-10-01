@@ -46,6 +46,7 @@ took nine.
 
 ---
 
-Elsewhere: a family organization PWA live on Google Play (React, TypeScript, Supabase,
-PostgreSQL) behind 221 migrations, 87 automated database tests and row-level security, and an
-Android parental-control app. Those are private, because they hold other people's data.
+Elsewhere: [ParentPulse](https://myparentpulse.app), a family organization app I run through my
+own company (React, TypeScript, Supabase, PostgreSQL), with 230+ migrations, 95+ database test
+files and row-level security as of October 2026. Its code is private, because it holds other
+people's data.
