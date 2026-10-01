@@ -8,7 +8,7 @@ permanent record. So most of what I build ends up being about the same thing fro
 angle: making it hard for bad data to get written, and making systems recoverable by someone who
 cannot physically reach them.
 
-Everything here was built and shipped independently. None of it was paid. I build with Claude
+Everything here was built and shipped independently, none of it as client or contract work. I build with Claude
 Code daily, orchestrating AI agents to write code; the rules, guardrails and defense-in-depth
 controls are reviewed and verified by me before anything ships.
 
