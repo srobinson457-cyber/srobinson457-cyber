@@ -32,7 +32,8 @@ A CI gate for destructive SQL migrations. Migration tests replay against an empt
 a `DROP`, `TRUNCATE` or unqualified `DELETE` that destroys real production rows passes CI green.
 The suite cannot catch it, because there is no data in the database it tests against.
 
-One file, zero dependencies, 28 self-tests. The repo runs the gate against its own deliberately
+One file, zero dependencies, 44 self-tests, and a mutation check that deletes each rule in turn
+and fails unless a test catches it. The repo runs the gate against its own deliberately
 destructive example and fails if that stops being flagged.
 
 ### [node-mail-no-deps](https://github.com/srobinson457-cyber/node-mail-no-deps)
