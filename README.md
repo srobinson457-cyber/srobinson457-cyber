@@ -10,8 +10,9 @@ cannot physically reach them.
 
 Everything here was built and shipped independently, none of it as client or contract work. On
 these projects I build with Claude Code, directing AI agents that write the code; I set the
-rules, guardrails and defense-in-depth controls, and I review and verify everything before it
-ships.
+rules, guardrails and defense-in-depth controls. I decide what gets built and what counts as
+proof; automated checks gate every change before it merges. How that works, and where to start
+reading: [REVIEWING.md](https://github.com/srobinson457-cyber/srobinson457-cyber/blob/main/REVIEWING.md).
 
 ---
 
@@ -31,7 +32,8 @@ A CI gate for destructive SQL migrations. Migration tests replay against an empt
 a `DROP`, `TRUNCATE` or unqualified `DELETE` that destroys real production rows passes CI green.
 The suite cannot catch it, because there is no data in the database it tests against.
 
-One file, zero dependencies, 28 self-tests. The repo runs the gate against its own deliberately
+One file, zero dependencies, 44 self-tests, and a mutation check that deletes each rule in turn
+and fails unless a test catches it. The repo runs the gate against its own deliberately
 destructive example and fails if that stops being flagged.
 
 ### [node-mail-no-deps](https://github.com/srobinson457-cyber/node-mail-no-deps)
