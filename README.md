@@ -10,8 +10,9 @@ cannot physically reach them.
 
 Everything here was built and shipped independently, none of it as client or contract work. On
 these projects I build with Claude Code, directing AI agents that write the code; I set the
-rules, guardrails and defense-in-depth controls, and I review and verify everything before it
-ships.
+rules, guardrails and defense-in-depth controls. I decide what gets built and what counts as
+proof; automated checks gate every change before it merges. How that works, and where to start
+reading: [REVIEWING.md](https://github.com/srobinson457-cyber/srobinson457-cyber/blob/main/REVIEWING.md).
 
 ---
 
