@@ -3,7 +3,7 @@
 Patrol sergeant in a Georgia sheriff's office. Self-taught developer.
 
 Nine years sworn. I am the supervisor my shift brings records-validation failures to, and the
-final approval on every incident and motor-vehicle report my shift produces before it becomes a
+final approval on every incident and motor vehicle crash report my shift produces before it becomes a
 permanent record. So most of what I build ends up being about the same thing from a different
 angle: making it hard for bad data to get written, and making systems recoverable by someone who
 cannot physically reach them.
@@ -13,6 +13,10 @@ these projects I build with Claude Code, directing AI agents that write the code
 rules, guardrails and defense-in-depth controls. I decide what gets built and what counts as
 proof; automated checks gate every change before it merges. How that works, and where to start
 reading: [REVIEWING.md](https://github.com/srobinson457-cyber/srobinson457-cyber/blob/main/REVIEWING.md).
+
+Writing: [The AI was confidently wrong, and the numbers were real](writing/the-ai-was-confidently-wrong.md),
+on checking a language model's output against the source data the way I check a report
+against the body camera footage.
 
 ---
 
